@@ -1,1 +1,3 @@
-app.controller('HomePageController', function ($scope, $http, $routeParams, $rootScope) {});
+app.controller('HomePageController', function ($scope, $http, $routeParams) {
+
+});

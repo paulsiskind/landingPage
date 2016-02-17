@@ -1,6 +1,6 @@
   app.config(function( $routeProvider, $locationProvider, $httpProvider) {
       $routeProvider
-      .when('/home', {
+      .when('/', {
         templateUrl: 'partials/home.html',
         controller: "HomePageController"
       

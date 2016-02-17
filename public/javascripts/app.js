@@ -1,1 +1,1 @@
-var app = angular.module("landPage", ['ngRoute', 'ngAnimate', 'ngMaterial'])
+var app = angular.module("landingPage", ['ngRoute'])
