@@ -1,6 +1,7 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+ font-family: 'Roboto', sans-serif;
 /*  background: url('/images/lakeTahoe.jpg') no-repeat center fixed;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -35,7 +36,7 @@ a {
   position: absolute;
   left:0;
   right:0;
-  background: #fff;
+  background: rgb(58,91,32);
   height:100%;
 
 }
@@ -59,7 +60,7 @@ a {
   position: absolute;
   left:0;
   right:0;
-  background: pink;
+  background: rgb(150,114,108) ;
   height:100%;
 }
 nav {
@@ -77,11 +78,13 @@ nav ul {
 
 nav li {
 
+
 }
 
 nav li a {
     color:rgb(50,50,50);
     font-weight:700;
+    font-size: 18px;
 }
 
 a.nav-active {
@@ -107,4 +110,13 @@ ul.nav.navbar-nav li a:hover{
 }
 ul.nav.navbar li a:hover{
   background: pink;
+}
+#name>h1{
+  font-size: 100px;
+}
+#name>h3{
+  font-size: 40px;
+}
+#middle h1{
+  font-size: 100px;
 }
