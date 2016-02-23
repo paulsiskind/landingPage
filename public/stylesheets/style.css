@@ -120,3 +120,7 @@ ul.nav.navbar li a:hover{
 #middle h1{
   font-size: 100px;
 }
+
+#portfolioContainer img{
+  width: 300px;
+}
