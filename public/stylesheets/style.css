@@ -122,16 +122,22 @@ ul.nav.navbar li a:hover{
 }
 
 #portfolioContainer img{
-  width: 300px;
-   height: 300px
+  width: 450px;
+  padding: 10px;
+    
+
 }
 
-#portfolioContainer{
+/*#portfolioContainer{
   display: flex;
 flex: 1 1 0px;
 
-justify-content: space-between;
+}*/
+.slider{
+  height: 600px;
+  width: 600px;
+  border: 1px solid blue;
 }
-#portfolioContainer:img{
-    flex: 2 2 22px;
+.fa {
+  font-size: 3em;
 }
