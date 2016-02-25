@@ -37,11 +37,11 @@ a {
   left:0;
   right:0;
   background: rgb(58,91,32);
-  height:130%;
+  height:150%;
 
 }
 #middleImg{
-  margin-top: 110%;
+  margin-top: 120%;
   padding: 3%;
   position: absolute;
   left:0;
@@ -55,13 +55,14 @@ a {
   height:100%;
 }
 #next{
-  margin-top: 150%;
+  margin-top: 170%;
   padding: 3%;
   position: absolute;
   left:0;
   right:0;
-  background: rgb(150,114,108) ;
+  background: rgb(32,50,91) ;
   height:100%;
+  color: white;
 }
 nav {
  /*   width:300px;
@@ -133,11 +134,14 @@ ul.nav.navbar li a:hover{
 flex: 1 1 0px;
 
 }*/
-.slider{
-  height: 600px;
-  width: 600px;
-  border: 1px solid blue;
+
+.opacity-zero {
+   width: 100px;
+    height: 260px;
+    background-color: #ccc;
+    z-index: 1;
 }
-.fa {
-  font-size: 3em;
+
+.preview img{
+  width: 90%;
 }

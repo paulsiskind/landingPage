@@ -5,10 +5,7 @@ $(document).ready(function(){
         });
         
 
-        $('#portfolioContainer img').click(function(){
-            alert('tacos');
-            (this).css("color","blue");
-        })
+     
         
    
     });
