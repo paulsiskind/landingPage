@@ -11,24 +11,26 @@
      <h1><i class="fa fa-cog fa-spin fa-4x"></i>Portfolio</h1>
 
      <span ng-show="theRiverbackground" ng-mouseleave="theRiver()">
-
         <div ng-include src= "'partials/theRiver.html'"></div>
-
      </span>
 
      <span ng-show="urbanSherpabackground" ng-mouseleave="urbanSherpa()">
-
         <div ng-include src= "'partials/urban.html'"></div>
-
      </span>
 
-      <span ng-show="thepowdrbackground" ng-mouseleave="thepowdr()">
-
+     <span ng-show="thepowdrbackground" ng-mouseleave="thepowdr()">
         <div ng-include src= "'partials/powdr.html'"></div>
-
      </span>
 
-     <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground">
+     <span ng-show="gSchoolbackground" ng-mouseleave="gSchool()">
+        <div ng-include src= "'partials/gSchool.html'"></div>
+     </span>
+
+     <span ng-show="redditClonebackground" ng-mouseleave="redditClone()">
+        <div ng-include src= "'partials/reddit.html'"></div>
+     </span>
+
+     <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground">
         <div class="upper col-md-12 text-center">
 
           <span class="riverReport" ng-mouseover="theRiver()">
@@ -42,16 +44,16 @@
         </div>
         <div class="lower col-md-12 text-center">
 
-          <span class="urban" ng-mouseover="urbanSherpa()">
-              <a href="https://urbansherpa.herokuapp.com/"><img src="images/urabansherpa.png"></a>
+          <span class="urban" ng-click="urbanSherpa()">
+            <img src="images/urabansherpa.png">
           </span>
           
-          <span class="gSc" ng-mouseover="gSchool()" ng-mouseleave="gSchool()">
-              <a href="https://fathomless-temple-3790.herokuapp.com/"><img src="/images/gSchoolGavette.png" ng-class="{'opacity-zero': gSchoolbackground === true}"></a>
+          <span class="gSc" ng-mouseover="gSchool()">
+              <a href="https://fathomless-temple-3790.herokuapp.com/"><img src="/images/gSchoolGavette.png"></a>
           </span>
 
-          <span class="reddit" ng-mouseover="redditClone()" ng-mouseleave="redditClone()">
-              <a href="https://sleepy-stream-7242.herokuapp.com/"><img src="images/redditClone.png"ng-class="{'opacity-zero': redditClonebackground === true}"></a>
+          <span class="reddit" ng-mouseover="redditClone()">
+              <a href="https://sleepy-stream-7242.herokuapp.com/"><img src="images/redditClone.png"></a>
           </span>
 
 
