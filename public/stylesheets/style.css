@@ -37,7 +37,7 @@ a {
   left:0;
   right:0;
   background: rgb(58,91,32);
-  height:170%;
+  height:180%;
 
 }
 #middleImg{
@@ -55,12 +55,36 @@ a {
   height:100%;
 }
 #next{
-  margin-top: 170%;
+  margin-top: 180%;
   padding: 3%;
   position: absolute;
   left:0;
   right:0;
   background: rgb(32,50,91) ;
+  height:200%;
+  color: white;
+}
+#nextImg{
+  margin-top: 260%;
+  padding: 3%;
+  position: absolute;
+  left:0;
+  right:0;
+  background: url('/images/yule.jpg')no-repeat center fixed; 
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+  height:100%;
+}
+#after{
+  margin-top: 300%;
+  padding: 3%;
+  position: absolute;
+  left:0;
+  right:0;
+  background: rgb(32,84,91) ;
   height:100%;
   color: white;
 }
@@ -157,4 +181,34 @@ flex: 1 1 0px;
 .preview{
   padding-top: 60px;
   transition: 0.5s;
+}
+
+embed{
+  width:800px;
+  height:1000px;
+}
+#next p{
+  color: black;
+  font-size: 15px;
+}
+.aboot{
+  border: 5px solid;
+  border-color: rgb(111,135,158);
+}
+.mission h1{
+  font-size: 45px;
+}
+.contact h1{
+  border-bottom: 1px solid black;
+
+  border-left-width:0%;
+}
+.contact p{
+  font-size: 20px;
+}
+.contact li{
+  padding-top: 20px;
+}
+ul{
+  list-style-type: none;
 }
