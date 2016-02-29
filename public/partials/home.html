@@ -30,7 +30,11 @@
         <div ng-include src= "'partials/reddit.html'"></div>
      </span>
 
-     <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground">
+     <span ng-show="downRiverbackground" ng-click="downRiver()">
+        <div ng-include src= "'partials/downRiver.html'"></div>
+     </span>
+
+     <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground || downRiverbackground">
         <div class="upper col-md-12 text-center">
 
           <span class="riverReport" ng-click="theRiver()">
@@ -47,6 +51,12 @@
           <span class="urban" ng-click="urbanSherpa()">
             <img src="images/urabansherpa.png">
           </span>
+
+           <span class="down" ng-click="downRiver()">
+            <img src="images/downRiver.png">
+          </span>
+
+
           
           <span class="gSc" ng-click="gSchool()">
               <img src="/images/gSchoolGavette.png">

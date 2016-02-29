@@ -5,6 +5,7 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
   $scope.urbanSherpabackground = false;
   $scope.gSchoolbackground = false;
   $scope.redditClonebackground = false;
+  $scope.downRiverbackground = false;
 
   $scope.theRiver = function(){
     console.log($scope.theRiverbackground)
@@ -28,6 +29,10 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
 
   $scope.redditClone = function(){
     $scope.redditClonebackground = !$scope.redditClonebackground
+  }
+
+   $scope.downRiver = function(){
+    $scope.downRiverbackground= !$scope.downRiverbackground
   }
 
 });
