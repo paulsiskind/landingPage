@@ -2,12 +2,6 @@ body {
   padding: 50px;
  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
  font-family: 'Roboto', sans-serif;
-/*  background: url('/images/lakeTahoe.jpg') no-repeat center fixed;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;;*/
 }
 
 a {
@@ -89,10 +83,7 @@ a {
   color: white;
 }
 nav {
- /*   width:300px;
-    background-color:rgb(240,240,240);
-    border:solid 1px rgb(220,220,220);
-    padding:0 12px;*/
+
 }
 
 nav ul {
@@ -159,21 +150,8 @@ ul.nav.navbar li a:hover{
 }
 
 #portfolioContainer img:hover{
-  /* color: black ;
-   background-color: #ff0;
-   background: #cc638b;
-   transition: 0.5s;*/
   -webkit-filter: grayscale(100%);
-
 }
-
-/*#portfolioContainer{
-  display: flex;
-flex: 1 1 0px;
-
-}*/
-
-
 
 .preview img{
   width: 90%;

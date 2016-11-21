@@ -1,5 +1,5 @@
 app.controller('HomePageController', function ($scope, $http, $routeParams) {
-  
+   
   $scope.thepowdrbackground = false;
   $scope.theRiverbackground = false;
   $scope.urbanSherpabackground = false;
@@ -12,10 +12,8 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
     $scope.theRiverbackground = !$scope.theRiverbackground;
   }
 
-
   $scope.thepowdr = function(){
     $scope.thepowdrbackground = !$scope.thepowdrbackground;
-
   }
 
   $scope.urbanSherpa = function(){
@@ -34,5 +32,6 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
    $scope.downRiver = function(){
     $scope.downRiverbackground= !$scope.downRiverbackground
   }
+
 
 });
