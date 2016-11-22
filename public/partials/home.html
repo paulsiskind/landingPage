@@ -1,107 +1,122 @@
-<div class="backgroundImg"></div>
+<section id="home" data-type="background" data-speed="10">
 
-<div id="name">
-  <h1>Paul D. Siskind</h1>
-  <h3>Full-Stack Developer/Potter/Expedition Kayaker/Adventurer</h3>
-</div>
+  <article id="name">
+    <h1>Paul D. Siskind</h1>
+    <h3>Full-Stack Developer/Potter/Expedition Kayaker/Adventurer</h3>
+  </div>
+</section>
 
+<section id="middle" data-type="background" data-speed="10">
+  <article>
+    <h1><i class="fa fa-cog fa-spin fa-4x"></i>Portfolio</h1>
 
-<div id="middle">
-  <h1><i class="fa fa-cog fa-spin fa-4x"></i>Portfolio</h1>
+    <span ng-show="theRiverbackground" ng-click="theRiver()">
+      <div ng-include src= "'partials/theRiver.html'"></div>
+    </span>
 
-  <span ng-show="theRiverbackground" ng-click="theRiver()">
-    <div ng-include src= "'partials/theRiver.html'"></div>
-  </span>
+    <span ng-show="urbanSherpabackground" ng-click="urbanSherpa()">
+      <div ng-include src= "'partials/urban.html'"></div>
+    </span>
 
-  <span ng-show="urbanSherpabackground" ng-click="urbanSherpa()">
-    <div ng-include src= "'partials/urban.html'"></div>
-  </span>
+    <span ng-show="thepowdrbackground" ng-click="thepowdr()">
+      <div ng-include src= "'partials/powdr.html'"></div>
+    </span>
 
-  <span ng-show="thepowdrbackground" ng-click="thepowdr()">
-    <div ng-include src= "'partials/powdr.html'"></div>
-  </span>
+    <span ng-show="gSchoolbackground" ng-click="gSchool()">
+      <div ng-include src= "'partials/gSchool.html'"></div>
+    </span>
 
-  <span ng-show="gSchoolbackground" ng-click="gSchool()">
-    <div ng-include src= "'partials/gSchool.html'"></div>
-  </span>
+    <span ng-show="redditClonebackground" ng-click="redditClone()">
+      <div ng-include src= "'partials/reddit.html'"></div>
+    </span>
 
-  <span ng-show="redditClonebackground" ng-click="redditClone()">
-    <div ng-include src= "'partials/reddit.html'"></div>
-  </span>
+    <span ng-show="downRiverbackground" ng-click="downRiver()">
+      <div ng-include src= "'partials/downRiver.html'"></div>
+    </span>
 
-  <span ng-show="downRiverbackground" ng-click="downRiver()">
-    <div ng-include src= "'partials/downRiver.html'"></div>
-  </span>
+    <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground || downRiverbackground">
+    <div class="row">
+      <div class="upper col-xs-6">
+        <span class="riverReport" ng-click="theRiver()">
+            <img src="images/theriverreport.png">
+        </span>        
+      </div>
+      <div class="col-xs-6">
+        <span class="powdr" ng-click="thepowdr()">
+            <img src="/images/powdr.png">
+        </span>
+      </div>
 
-  <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground || downRiverbackground">
-    <div class="upper col-md-12 text-center">
-      <span class="riverReport" ng-click="theRiver()">
-          <img src="images/theriverreport.png">
-      </span>        
-      <span class="powdr" ng-click="thepowdr()">
-          <img src="/images/powdr.png">
-      </span>
+      <div class="lower col-xs-6">
+        <span class="urban" ng-click="urbanSherpa()">
+          <img src="images/urabansherpa.png">
+        </span>
+      </div>
+      <div class="col-xs-6">
+        <span class="down" ng-click="downRiver()">
+          <img src="images/downRiver.png">
+        </span> 
+      </div>
+      <div class="col-xs-6">
+        <span class="gSc" ng-click="gSchool()">
+          <img src="/images/gSchoolGavette.png">
+        </span>
+      </div>
+      <div class="col-xs-6">
+        <span class="reddit" ng-click="redditClone()">
+          <img src="images/redditClone.png">
+        </span>
+      </div>
     </div>
+  </article>
+</section>
 
-    <div class="lower col-md-12 text-center">
-      <span class="urban" ng-click="urbanSherpa()">
-        <img src="images/urabansherpa.png">
-      </span>
-      <span class="down" ng-click="downRiver()">
-        <img src="images/downRiver.png">
-      </span> 
-      <span class="gSc" ng-click="gSchool()">
-        <img src="/images/gSchoolGavette.png">
-      </span>
-      <span class="reddit" ng-click="redditClone()">
-        <img src="images/redditClone.png">
-      </span>
+
+<section id="middleImg" data-type="background" data-speed="15"></section>
+
+<section id="next" data-type="background" data-speed="30">
+  <article>
+    <h1>ABOUT</h1>
+    <div class="text-left well col-md-4 aboot">
+
+      <p>This Page is still under Construction!!<br><br>
+
+        Bacon ipsum dolor amet swine capicola prosciutto cupim. Cow chuck pig corned beef pork belly short loin meatloaf. Pig andouille fatback, ham bresaola pastrami hamburger salami alcatra tail. Tongue swine shank, cow tri-tip prosciutto filet mignon spare ribs sausage frankfurter turducken tenderloin landjaeger jerky beef ribs. Porchetta pork loin shank swine, corned beef frankfurter sirloin venison leberkas fatback tongue pig hamburger meatloaf turducken.
+
+        <br><br>
+
+        Corned beef t-bone bresaola, shankle turducken biltong bacon brisket pork chop boudin pancetta shoulder ground round tail. Pork chop meatball landjaeger shankle. Hamburger shankle shank chicken, filet mignon pork venison sausage bresaola spare ribs porchetta pastrami short loin tenderloin. Capicola bresaola short loin chuck andouille corned beef, drumstick doner. Beef ribs pork andouille alcatra strip steak ball tip pig jowl meatball brisket biltong short ribs rump. Meatloaf tri-tip corned beef, shoulder pork chop kielbasa shankle swine picanha pastrami spare ribs ham hock. Beef ribs cow doner shoulder kielbasa.
+      </p>
     </div>
-  </div>
-</div>
+    <div class="text-right col-md-8">
+        <embed src="/images/PDS_resume.pdf">
+    </div>
+  </artcile>
+</section>
 
+<section id="nextImg" data-type="background" data-speed="10"></section>
 
-<div id="middleImg"></div>
+<section id="after" data-type="background" data-speed="10">
 
-<div id="next">
-  <h1>ABOUT</h1>
-  <div class="text-left well col-md-4 aboot">
-
-    <p>This Page is still under Construction!!<br><br>
-
-      Bacon ipsum dolor amet swine capicola prosciutto cupim. Cow chuck pig corned beef pork belly short loin meatloaf. Pig andouille fatback, ham bresaola pastrami hamburger salami alcatra tail. Tongue swine shank, cow tri-tip prosciutto filet mignon spare ribs sausage frankfurter turducken tenderloin landjaeger jerky beef ribs. Porchetta pork loin shank swine, corned beef frankfurter sirloin venison leberkas fatback tongue pig hamburger meatloaf turducken.
-
-      <br><br>
-
-      Corned beef t-bone bresaola, shankle turducken biltong bacon brisket pork chop boudin pancetta shoulder ground round tail. Pork chop meatball landjaeger shankle. Hamburger shankle shank chicken, filet mignon pork venison sausage bresaola spare ribs porchetta pastrami short loin tenderloin. Capicola bresaola short loin chuck andouille corned beef, drumstick doner. Beef ribs pork andouille alcatra strip steak ball tip pig jowl meatball brisket biltong short ribs rump. Meatloaf tri-tip corned beef, shoulder pork chop kielbasa shankle swine picanha pastrami spare ribs ham hock. Beef ribs cow doner shoulder kielbasa.
-    </p>
-  </div>
-  <div class="text-right col-md-8">
-      <embed src="/images/PDS_resume.pdf">
-  </div>
-</div>
-
-<div id="nextImg"></div>
-
-<div id="after">
-  <div class="mission text-left col-md-4">
-    <h1>FullStack Web Developer Development UI/UX Web Design
-        Photography Pottery Expedition Kayaking Rafting Biking Skiing Snowboarding
-        Beer Food Creative. Roaring Fork Valley, Colorado<br>
-    </h1>
-  </div>
-  <div class="col-md-4"></div>
-  <div class="contact col-md-4">
-    <h1>Contact</h1>
-    <p>I am currently looking for Fulltime employment in the Roaring Fork Valley and would love to here from you!</p>
-    <p><a href="mailto:paulsiskind@gmail.com" target="_top">paulsiskind@gmail.com
-      </a>
-    </p>
-    <ul>
-      <li><a href="http://github.com/paulsiskind/"><i class="fa fa-github fa-5x"></i></a></li><br>
-      <li><a href="http://www.linkedin.com/in/paul-siskind-07887217/"><i class="fa fa-linkedin-square fa-5x"></i></a></li><br>
-      <li><a href="http://www.instagram.com/bodiezhafa/"><i class="fa fa-instagram fa-5x"></i></a></li>
-    </ul>
-  </div>
-</div>
+    <div class="mission text-left col-md-4">
+      <h1>FullStack Web Developer Development UI/UX Web Design
+          Photography Pottery Expedition Kayaking Rafting Biking Skiing Snowboarding
+          Beer Food Creative. Roaring Fork Valley, Colorado<br>
+      </h1>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="contact col-md-4">
+      <h1>Contact</h1>
+      <p>I am currently looking for Fulltime employment in the Roaring Fork Valley and would love to here from you!</p>
+      <p><a href="mailto:paulsiskind@gmail.com" target="_top">paulsiskind@gmail.com
+        </a>
+      </p>
+      <ul>
+        <li><a href="http://github.com/paulsiskind/"><i class="fa fa-github fa-5x"></i></a></li><br>
+        <li><a href="http://www.linkedin.com/in/paul-siskind-07887217/"><i class="fa fa-linkedin-square fa-5x"></i></a></li><br>
+        <li><a href="http://www.instagram.com/bodiezhafa/"><i class="fa fa-instagram fa-5x"></i></a></li>
+      </ul>
+    </div>
+ 
+</section>
 

@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+
  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
  font-family: 'Roboto', sans-serif;
 }
@@ -9,79 +9,130 @@ a {
 }
 
 
-.backgroundImg{
-  top: 0;
-  z-index: -1;
-  position: fixed;
+#home{
+  
   background: url('/images/lakeTahoe.jpg') no-repeat center fixed; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;
-  height: 100%;
-  width: 100%;
-  left:0;
-  right:0;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
 }
-#middle{
-  margin-top: 40%;
-  padding: 3%;
-  position: absolute;
-  left:0;
-  right:0;
-  background: rgb(58,91,32);
-  height:200%;
+
+#home article{
+  height: 458px; 
+  position: absolute; 
+  text-align: left; 
+  top: 150px; 
+  width: 100%; 
+  padding-left: 30px;
 
 }
+#middle{
+  background: rgb(58,91,32);
+  height: 1500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#middle article{
+  height: 458px; 
+  position: absolute; 
+ /* text-align: center; */
+  top: 150px; 
+  width: 100%; 
+}
+#middle .col-xs-6{
+  text-align: center
+}
 #middleImg{
-  margin-top: 140%;
-  padding: 3%;
-  position: absolute;
-  left:0;
-  right:0;
+ 
   background: url('/images/yule.jpg')no-repeat center fixed; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;
-  height:100%;
+  background-size: cover;
+  min-height: 1000px; 
+  height: 500px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#middleImg article{
+    height: 458px; 
+    position: absolute; 
+    text-align: center; 
+    top: 150px; 
+    width: 100%; 
 }
 #next{
-  margin-top: 180%;
-  padding: 3%;
-  position: absolute;
-  left:0;
-  right:0;
-  background: rgb(32,50,91) ;
-  height:220%;
+  background: rgb(32,50,91) ; 
   color: white;
+  height: 1300px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+
+ 
+}
+
+#next article{
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
 #nextImg{
-  margin-top: 270%;
-  padding: 3%;
-  position: absolute;
-  left:0;
-  right:0;
+
   background: url('/images/TahoeView.jpg')no-repeat center fixed; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;;
-  height:100%;
+  background-size: cover;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  
 }
 #after{
-  margin-top: 300%;
-  padding: 3%;
-  position: absolute;
-  left:0;
-  right:0;
-  background: rgb(32,84,91) ;
-  height:120%;
+  background: rgb(32,84,91);
   color: white;
+  height: 1000px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  position: absolute; 
+  padding-top: 150px; 
 }
+
+/*#after article{
+  height: 458px; 
+  width: 100%; 
+}*/
 nav {
 
 }
@@ -186,6 +237,7 @@ embed{
 }
 .contact li{
   padding-top: 20px;
+  text-align: right;
 }
 ul{
   list-style-type: none;
