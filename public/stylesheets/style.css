@@ -11,17 +11,18 @@ a {
 
 #home{
   
-  background: url('/images/lakeTahoe.jpg') no-repeat center fixed; 
+  background: url('/images/lakeTahoe.jpg') no-repeat center; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px; 
+  height: 100vh; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
   position: relative;
+/*  overflow:hidden;*/
 }
 
 #home article{
@@ -31,11 +32,12 @@ a {
   top: 150px; 
   width: 100%; 
   padding-left: 30px;
+  overflow:hidden;
 
 }
 #middle{
   background: rgb(58,91,32);
-  height: 1500px; 
+  height: 160vh; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -47,8 +49,12 @@ a {
   height: 458px; 
   position: absolute; 
  /* text-align: center; */
-  top: 150px; 
+  top: 100px; 
   width: 100%; 
+}
+#middle h1{
+  padding-left: 3vh;
+  padding-bottom: 3vh;
 }
 #middle .col-xs-6{
   text-align: center
@@ -61,9 +67,9 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 1000px; 
-  height: 500px; 
-  margin: 0 auto; 
+ /* min-height: 1000px; */
+  height: 100vh; 
+  /*margin: 0 auto;*/ 
   width: 100%; 
   max-width: 1920px; 
   position: relative; 
@@ -106,7 +112,7 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 1000px; 
+  height: 100vh; 
   margin: 0 auto; 
   width: 100%; 
   max-width: 1920px; 
@@ -115,6 +121,14 @@ a {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   
 }
+
+/*#nextImg article{
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
+}*/
 #after{
   background: rgb(32,84,91);
   color: white;
@@ -125,14 +139,14 @@ a {
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  position: absolute; 
-  padding-top: 150px; 
 }
 
-/*#after article{
+#after article{
+  padding-top: 150px; 
+  position: absolute; 
   height: 458px; 
   width: 100%; 
-}*/
+}
 nav {
 
 }
