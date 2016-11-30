@@ -139,14 +139,9 @@ a {
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding-top: 100px;
 }
 
-#after article{
-  padding-top: 150px; 
-  position: absolute; 
-  height: 458px; 
-  width: 100%; 
-}
 nav {
 
 }
