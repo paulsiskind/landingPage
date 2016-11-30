@@ -22,7 +22,7 @@ a {
   width: 100%; 
   max-width: 1920px; 
   position: relative;
-/*  overflow:hidden;*/
+  color: white;
 }
 
 #home article{
