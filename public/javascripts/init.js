@@ -3,7 +3,7 @@ $(document).ready(function(){
       evn.preventDefault();
       $('html,body').scrollTo(this.hash, this.hash); 
   });
-  var $window = $(window); 
+  // var $window = $(window); 
   // $('section[data-type="background"]').each(function(){
   //       var $bgobj = $(this); // assigning the object
     
@@ -17,4 +17,30 @@ $(document).ready(function(){
   //           $bgobj.css({ backgroundPosition: coords });
   //       }); 
   //   });  
+
+// var controller = new ScrollMagic.Controller();
+  
+//   new ScrollMagic.Scene({
+//     triggerElement: "#home",
+//     triggerHook: "onEnter",
+//   })
+//   .duration('200%')
+//   .setTween("#home", {
+//       backgroundPosition: "50% 100%",
+//       ease: Linear.easeNone
+//   })
+//   .addIndicators() // for debugging purposes
+//   .addTo(controller);
+
+//   new ScrollMagic.Scene({
+//     triggerElement: "#middleImg",
+//     triggerHook: "onEnter",
+//   })
+//   .duration('200%')
+//   .setTween("#middleImg", {
+//       backgroundPosition: "50% 100%",
+//       ease: Linear.easeNone
+//   })
+//   .addIndicators() // for debugging purposes
+//   .addTo(controller);
 });

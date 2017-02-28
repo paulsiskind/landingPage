@@ -1,30 +1,24 @@
 body {
-
  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
  font-family: 'Roboto', sans-serif;
 }
-
 a {
   color: #00B7FF;
 }
-
-
-#home{
-  
+#home{ 
   background: url('/images/lakeTahoe.jpg') no-repeat center; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  /*background: transparent;*/
   height: 100vh; 
   margin: 0 auto; 
   width: 100%; 
-  max-width: 1920px; 
   position: relative;
   color: white;
 }
-
 #home article{
   height: 458px; 
   position: absolute; 
@@ -33,7 +27,6 @@ a {
   width: 100%; 
   padding-left: 30px;
   overflow:hidden;
-
 }
 #middle{
   background: rgb(58,91,32);
@@ -60,14 +53,13 @@ a {
   text-align: center
 }
 #middleImg{
- 
   background: url('/images/yule.jpg')no-repeat center fixed; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- /* min-height: 1000px; */
+  /* min-height: 1000px; */
   height: 100vh; 
   /*margin: 0 auto;*/ 
   width: 100%; 
@@ -77,11 +69,11 @@ a {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #middleImg article{
-    height: 458px; 
-    position: absolute; 
-    text-align: center; 
-    top: 150px; 
-    width: 100%; 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 150px; 
+  width: 100%; 
 }
 #next{
   background: rgb(32,50,91) ; 
@@ -92,9 +84,7 @@ a {
   max-width: 1920px; 
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-
- 
+  box-shadow: 0 0 50px rgba(0,0,0,0.8); 
 }
 
 #next article{
@@ -105,7 +95,6 @@ a {
   width: 100%; 
 }
 #nextImg{
-
   background: url('/images/TahoeView.jpg')no-repeat center fixed; 
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -118,10 +107,8 @@ a {
   max-width: 1920px; 
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  
+  box-shadow: 0 0 50px rgba(0,0,0,0.8); 
 }
-
 /*#nextImg article{
   height: 458px; 
   position: absolute; 
@@ -141,39 +128,23 @@ a {
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   padding-top: 100px;
 }
-
-nav {
-
-}
-
 nav ul {
     list-style-type:none;
     margin:0;
     padding:0;
 }
-
-nav li {
-
-
-}
-
 nav li a {
     color:rgb(50,50,50);
     font-weight:700;
     font-size: 18px;
 }
-
 a.nav-active {
     color:purple;
 }
-
-
-
 .nav>li>a, .navbar-brand {
   color: white;
   transition: ease-in-out .75s;
 }
-
 ul.nav.navbar-nav li:hover{
    background: rgb(69,100,167);
    opacity: 0.6;
@@ -196,7 +167,6 @@ ul.nav.navbar li a:hover{
 #middle h1{
   font-size: 80px;
 }
-
 #portfolioContainer img{
   width: 450px;
   padding: 10px;
@@ -208,7 +178,6 @@ ul.nav.navbar li a:hover{
     
 
 }
-
 #portfolioContainer img:hover{
   -webkit-filter: grayscale(100%);
 }
