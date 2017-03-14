@@ -18,29 +18,5 @@ $(document).ready(function(){
   //       }); 
   //   });  
 
-// var controller = new ScrollMagic.Controller();
-  
-//   new ScrollMagic.Scene({
-//     triggerElement: "#home",
-//     triggerHook: "onEnter",
-//   })
-//   .duration('200%')
-//   .setTween("#home", {
-//       backgroundPosition: "50% 100%",
-//       ease: Linear.easeNone
-//   })
-//   .addIndicators() // for debugging purposes
-//   .addTo(controller);
 
-//   new ScrollMagic.Scene({
-//     triggerElement: "#middleImg",
-//     triggerHook: "onEnter",
-//   })
-//   .duration('200%')
-//   .setTween("#middleImg", {
-//       backgroundPosition: "50% 100%",
-//       ease: Linear.easeNone
-//   })
-//   .addIndicators() // for debugging purposes
-//   .addTo(controller);
 });

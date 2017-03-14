@@ -33,7 +33,7 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
     $scope.downRiverbackground= !$scope.downRiverbackground
   }
   var controller = new ScrollMagic.Controller();
-  console.log(controller)
+  
   new ScrollMagic.Scene({
     triggerElement: "#home",
     triggerHook: "onEnter",
@@ -82,7 +82,7 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
     })
     .setTween(fromLeftTimeline)
     .duration(400)
-    .reverse(false)
+    //.reverse(false)
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
 
@@ -103,7 +103,7 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
     })
     .setTween(fromRightTimeline)
     .duration(400)
-    .reverse(false)
+    //.reverse(false)
     // .addIndicators() // add indicators (requires plugin)
     .addTo(controller);
   // var $window = $(window); 
