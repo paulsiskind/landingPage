@@ -105,19 +105,10 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
     .duration(400)
     //.reverse(false)
     // .addIndicators() // add indicators (requires plugin)
-    .addTo(controller);
-  // var $window = $(window); 
-  // $('section[data-type="background"]').each(function(){
-  //       var $bgobj = $(this); // assigning the object
-    
-  //       $(window).scroll(function() {
-  //           var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
-            
-  //           // Put together our final background position
-  //           var coords = '50% '+ yPos + 'px';
+    .addTo(controller); 
 
-  //           // Move the background
-  //           $bgobj.css({ backgroundPosition: coords });
-  //       }); 
-  //   });  
+  $("nav a").click(function(evn){
+    evn.preventDefault();
+    $('html,body').scrollTo(this.hash, this.hash); 
+  });
 });
