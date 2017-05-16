@@ -184,9 +184,6 @@ ul.nav.navbar li a:hover{
   -webkit-filter: grayscale(100%);
 }
 
-.preview img{
-  width: 90%;
-}
 .preview{
   padding-top: 60px;
   transition: 0.5s;
@@ -225,7 +222,8 @@ ul{
 
 .modal-content{
   background-color: rgb(14,95,166);
-  height:50vh;
+  /*background-color: rgb(58,91,1);*/
+  height:70vh;
   margin:0 auto;
   display:block;
 }
