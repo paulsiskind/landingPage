@@ -1,12 +1,14 @@
 body {
  /* font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
  font-family: 'Roboto', sans-serif;
+ max-width: 100%;
+ overflow-x: hidden !important;
 }
 a {
   color: #00B7FF;
 }
 #home{ 
-  background: url('/images/lakeTahoe.jpeg') no-repeat center; 
+  background: url('/images/sunset.jpg') no-repeat center; 
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -26,7 +28,7 @@ a {
   top: 150px; 
   width: 100%; 
   padding-left: 30px;
-  overflow:hidden;
+  /*overflow:hidden;*/
 }
 #middle{
   background: rgb(58,91,32);
@@ -63,7 +65,7 @@ a {
   height: 100vh; 
   /*margin: 0 auto;*/ 
   width: 100%; 
-  max-width: 1920px; 
+  /*max-width: 1920px; */
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -81,7 +83,7 @@ a {
   height: 1300px; 
   margin: 0 auto; 
   width: 100%; 
-  max-width: 1920px; 
+ /* max-width: 1920px; */
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8); 
@@ -104,7 +106,7 @@ a {
   height: 100vh; 
   margin: 0 auto; 
   width: 100%; 
-  max-width: 1920px; 
+/*  max-width: 1920px; */
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8); 
