@@ -10,69 +10,82 @@
   <article id="portfolio">
     <h1>Portfolio</h1>
 <!-- <i class="fa fa-cog fa-spin fa-4x"></i> -->
-    <span ng-show="theRiverbackground" ng-click="theRiver()">
-      <div ng-include src= "'partials/theRiver.html'"></div>
-    </span>
+    
 
-    <span ng-show="urbanSherpabackground" ng-click="urbanSherpa()">
-      <div ng-include src= "'partials/urban.html'"></div>
-    </span>
-
-    <span ng-show="thepowdrbackground" ng-click="thepowdr()">
-      <div ng-include src= "'partials/powdr.html'"></div>
-    </span>
-
-    <span ng-show="gSchoolbackground" ng-click="gSchool()">
-      <div ng-include src= "'partials/gSchool.html'"></div>
-    </span>
-
-    <span ng-show="redditClonebackground" ng-click="redditClone()">
-      <div ng-include src= "'partials/reddit.html'"></div>
-    </span>
-
-    <span  ng-show="downRiverbackground" ng-click="downRiver()" >
-      <div ng-include src= "'partials/downRiver.html'" ></div>
-    </span>
-
-    <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground || downRiverbackground">
+    <div id="portfolioContainer">
     <div class="row">
       <div class="upper col-xs-6">
-        <span class="riverReport" ng-click="theRiver()">
+        <span class="riverReport" data-toggle="modal" data-target=".riverModal">
             <img src="images/theriverreport.png">
         </span>        
       </div>
+      <div class="modal fade riverModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/theRiver.html'"></div>             
+          </div>
+        </div>
+      </div>
       <div class="col-xs-6">
-        <span class="powdr" ng-click="thepowdr()">
+        <span class="powdr" data-toggle="modal" data-target=".powdrModal">
             <img src="/images/powdr.png">
         </span>
       </div>
+      <div class="modal fade powdrModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/powdr.html'"></div>             
+          </div>
+        </div>
+      </div>
 
       <div class="lower col-xs-6">
-        <span class="urban" ng-click="urbanSherpa()">
+        <span class="urban" data-toggle="modal" data-target=".urbanModal">
           <img src="images/urabansherpa.png">
         </span>
       </div>
+      <div class="modal fade urbanModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/urban.html'"></div>             
+          </div>
+        </div>
+      </div>
       <div class="col-xs-6">
-        <span class="down" ng-click="downRiver()">
+        <span class="down" data-toggle="modal" data-target=".downModal">
           <img src="images/downRiver.png">
         </span> 
       </div>
+      <div class="modal fade downModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/downRiver.html'"></div>             
+          </div>
+        </div>
+      </div>
       <div class="col-xs-6">
-        <span class="gSc" ng-click="gSchool()">
+        <span class="gSc" data-toggle="modal" data-target=".gscModal">
           <img src="/images/gSchoolGavette.png">
         </span>
       </div>
+      <div class="modal fade gscModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/gSchool.html'"></div>             
+          </div>
+        </div>
+      </div>
       <div class="col-xs-6">
-        <span class="reddit" data-toggle="modal" data-target=".screenShotOne">
+        <span class="reddit" data-toggle="modal" data-target=".redditModal">
           <img src="images/redditClone.png">
         </span>
       </div>
-      <div class="modal fade screenShotOne" tabindex="-1" role="dialog">
-          <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div ng-include src= "'partials/reddit.html'"></div>             
-              </div>
+      <div class="modal fade redditModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div ng-include src= "'partials/reddit.html'"></div>             
           </div>
+        </div>
       </div>
     </div>
   </article>
