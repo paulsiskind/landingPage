@@ -30,8 +30,8 @@
       <div ng-include src= "'partials/reddit.html'"></div>
     </span>
 
-    <span ng-show="downRiverbackground" ng-click="downRiver()">
-      <div ng-include src= "'partials/downRiver.html'"></div>
+    <span  ng-show="downRiverbackground" ng-click="downRiver()" >
+      <div ng-include src= "'partials/downRiver.html'" ></div>
     </span>
 
     <div id="portfolioContainer" ng-hide="urbanSherpabackground || theRiverbackground || thepowdrbackground || gSchoolbackground || redditClonebackground || downRiverbackground">
@@ -63,9 +63,16 @@
         </span>
       </div>
       <div class="col-xs-6">
-        <span class="reddit" ng-click="redditClone()">
+        <span class="reddit" data-toggle="modal" data-target=".screenShotOne">
           <img src="images/redditClone.png">
         </span>
+      </div>
+      <div class="modal fade screenShotOne" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div ng-include src= "'partials/reddit.html'"></div>             
+              </div>
+          </div>
       </div>
     </div>
   </article>

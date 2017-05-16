@@ -220,3 +220,10 @@ embed{
 ul{
   list-style-type: none;
 }
+
+.modal-content{
+  background-color: rgb(14,95,166);
+  height:50vh;
+  margin:0 auto;
+  display:block;
+}
