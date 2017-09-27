@@ -27,7 +27,7 @@ app.controller('HomePageController', function ($scope, $http, $routeParams) {
   })
   .duration('200%')
   .setTween("#middleImg", {
-      backgroundPosition: "10% 100%",
+      backgroundPosition: "50% 100%",
       ease: Linear.easeNone
   })
   // .addIndicators() // for debugging purposes
