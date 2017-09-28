@@ -10,89 +10,106 @@
   <article id="portfolio">
     <h1>Portfolio</h1>
     <div id="portfolioContainer">
-    <div class="row">
-      <div class="upper col-xs-4">
-        <span class="riverReport" data-toggle="modal" data-target=".riverModal">
-            <img src="images/rivercycle.png">
-        </span>        
-      </div>
-      <div class="modal fade riverModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/theRiver.html'"></div>             
+    <div class="column">
+      <div class="row">
+        <div class="upper col-xs-4">
+          <span class="riverReport" data-toggle="modal" data-target=".riverModal">
+              <img src="images/rivercycle.png">
+          </span>        
+        </div>
+        <div class="modal fade riverModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/theRiver.html'"></div>             
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <span class="powdr" data-toggle="modal" data-target=".powdrModal">
+              <img src="/images/powdr.png">
+          </span>
+        </div>
+        <div class="modal fade powdrModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/powdr.html'"></div>             
+            </div>
+          </div>
+        </div>
+        <div class="lower col-xs-4">
+          <span class="urban" data-toggle="modal" data-target=".urbanModal">
+            <img src="images/urabansherpa.png">
+          </span>
+        </div>
+        <div class="modal fade urbanModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/urban.html'"></div>             
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-4">
-        <span class="powdr" data-toggle="modal" data-target=".powdrModal">
-            <img src="/images/powdr.png">
-        </span>
-      </div>
-      <div class="modal fade powdrModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/powdr.html'"></div>             
+      <div class="row">
+        <div class="col-xs-4">
+          <span class="down" data-toggle="modal" data-target=".downModal">
+            <img src="images/downRiver.png">
+          </span> 
+        </div>
+        <div class="modal fade downModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/downRiver.html'"></div>             
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <span class="gSc" data-toggle="modal" data-target=".gscModal">
+            <img src="/images/gSchoolGavette.png">
+          </span>
+        </div>
+        <div class="modal fade gscModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/gSchool.html'"></div>             
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4">
+          <span class="reddit" data-toggle="modal" data-target=".redditModal">
+            <img src="images/redditClone.png">
+          </span>
+        </div>
+        <div class="modal fade redditModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/reddit.html'"></div>             
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="lower col-xs-4">
-        <span class="urban" data-toggle="modal" data-target=".urbanModal">
-          <img src="images/urabansherpa.png">
-        </span>
-      </div>
-      <div class="modal fade urbanModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/urban.html'"></div>             
+      <div class="row">
+        <div class="col-xs-4">
+          <span class="reddit" data-toggle="modal" data-target=".ossoModal">
+            <img src="images/ossoCeramics.png">
+          </span>
+        </div>
+        <div class="modal fade ossoModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/ossoCeramics.html'"></div>             
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-xs-4">
-        <span class="down" data-toggle="modal" data-target=".downModal">
-          <img src="images/downRiver.png">
-        </span> 
-      </div>
-      <div class="modal fade downModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/downRiver.html'"></div>             
-          </div>
+        <div class="col-xs-4">
+          <span class="reddit" data-toggle="modal" data-target=".amatisModal">
+            <img src="images/amatiscontrols.png">
+          </span>
         </div>
-      </div>
-      <div class="col-xs-4">
-        <span class="gSc" data-toggle="modal" data-target=".gscModal">
-          <img src="/images/gSchoolGavette.png">
-        </span>
-      </div>
-      <div class="modal fade gscModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/gSchool.html'"></div>             
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-4">
-        <span class="reddit" data-toggle="modal" data-target=".redditModal">
-          <img src="images/redditClone.png">
-        </span>
-      </div>
-      <div class="modal fade redditModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/reddit.html'"></div>             
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-4">
-        <span class="reddit" data-toggle="modal" data-target=".ossoModal">
-          <img src="images/ossoCeramics.png">
-        </span>
-      </div>
-      <div class="modal fade ossoModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div ng-include src= "'partials/ossoCeramics.html'"></div>             
+        <div class="modal fade amatisModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div ng-include src= "'partials/amatis.html'"></div>             
+            </div>
           </div>
         </div>
       </div>
