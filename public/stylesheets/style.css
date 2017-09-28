@@ -191,9 +191,14 @@ ul.nav.navbar li a:hover{
 }
 
 .preview{
-  padding-top: 60px;
+  padding-top: 40px;
   transition: 0.5s;
 }
+.title{
+  padding-bottom: 30px;
+  color: white;
+}
+
 
 embed{
   width:800px;
